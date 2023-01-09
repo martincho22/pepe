@@ -12,17 +12,36 @@ header{
     background-color: darkblue;
 }
 
-.title{width: 100vw;
-    height: 20vh;}
+.title{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+   
+  }
 
+
+ h1{
+    color:yellowgreen;
+    width: 80%;
+    height: 10vh;
+    background-color: blue;
+    padding: 5px auto;
+          }
 
 
 div{
     border: 1px solid rgb(250, 243, 242);
-    height: 200px;
-    width: 200px;
+    height: 450px;
+    width: 500px;
     color: aliceblue;
-   text-align: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  
    
 }
 
