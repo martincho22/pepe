@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: darkblue;
+    
 }
 
 .title{
@@ -34,25 +34,30 @@ header{
 
 
 div{
-    border: 1px solid rgb(250, 243, 242);
-    height: 450px;
-    width: 500px;
+
+    height: 350px;
+    width: 300px;
     color: aliceblue;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
   
    
+} 
+
+div:nth-child(3):hover{
+    background-color: brown;
+    transform: rotate(20deg);
+    transition: all 0.6s ease-in;
+    border-radius: 80px;
+    
 }
-
-
 
 
 section{
     display: flex;
     flex-wrap: wrap;
     height: 50vh;
-    border: 1px solid rgb(250, 243, 242);
     align-items: center;
     justify-content: space-evenly;
 }
@@ -60,14 +65,64 @@ section{
 
 
 .caja1{
-    background-color: burlywood;
+    background-color: rgb(32, 13, 237);
 }
-.caja4{
-    background-color: rgb(241, 142, 12);
-}
-.caja3{
-    background-color: rgb(174, 105, 161);
-}
+
+
 .caja2{
-    background-color: rgb(142, 222, 135);
+    background-color: rgb(250, 253, 250);
+    color: tomato;
+}
+
+.caja3{
+    background-color: rgb(23, 236, 12);
+}
+
+.caja4{
+    background-color: rgb(233, 241, 12);
+   
+}
+
+
+
+
+
+
+
+
+ /*first movile*/
+
+
+
+
+@media (min-width:1400px){
+    
+}
+
+@media (min-width:1200px){
+  
+}
+
+@media  (min-width:1024px){
+  
+}
+
+@media  (min-width:768px){
+    
+   
+
+}
+
+@media  (min-width:600px){
+   
+}
+
+
+
+@media  (min-width:320px) and (max-width:480px){
+   
+    .caja3{
+        background-color: rgb(7, 7, 7); /*soy negro desde los 320 hasta 480 px*/
+        line-height: 150px;
+        } 
 }
